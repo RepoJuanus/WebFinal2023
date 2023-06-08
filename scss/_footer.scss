@@ -32,13 +32,13 @@ footer{
             background-color: $noche;
             display: flex;
             list-style: none;
-            justify-content: space-around ;
+            justify-content:space-evenly ;
         }
         a{
             text-decoration: none;
             color: $blanco;
             &:hover{
-            color: $blanco_hover;
+                color: $blanco_hover;
             }
         }
     }
