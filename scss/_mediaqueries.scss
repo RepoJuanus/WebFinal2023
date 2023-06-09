@@ -146,6 +146,14 @@
         }
 
     }
+/*  GALERIA  */
+.card_title_font{
+    font-size: x-large ;
+}
+.card_font{
+    font-size: medium ;
+}
+
 }
 
 @media screen and (max-width: 720px) {
@@ -251,5 +259,12 @@
         }
 
     }
+    /*  GALERIA  */
+.card_title_font{
+    font-size: large ;
+}
+.card_font{
+    font-size:small ;
+}
 
 }

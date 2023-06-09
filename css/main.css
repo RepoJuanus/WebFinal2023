@@ -340,6 +340,14 @@ footer .footer__redes a:hover {
   margin: 0.2%;
 }
 
+.card_title_font {
+  font-size: xx-large;
+}
+
+.card_font {
+  font-size: large;
+}
+
 body {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#E0E0E0), to(#E0E0E0));
   background-image: linear-gradient(to top, #E0E0E0, #E0E0E0);
@@ -489,6 +497,13 @@ body {
     border-radius: 15px;
     padding: 1rem;
   }
+  /*  GALERIA  */
+  .card_title_font {
+    font-size: x-large;
+  }
+  .card_font {
+    font-size: medium;
+  }
 }
 @media screen and (max-width: 720px) {
   .cuerpo__ppal_grid {
@@ -565,5 +580,12 @@ body {
     width: 100%;
     border-radius: 15px;
     padding: 0.5rem;
+  }
+  /*  GALERIA  */
+  .card_title_font {
+    font-size: large;
+  }
+  .card_font {
+    font-size: small;
   }
 }
